@@ -21,4 +21,9 @@ body ul li:not(:last-child)::after {
   top: 0;
   height: 100%;
 }
+
+body a {
+  text-decoration: none;
+  color: gray;
+}
 /*# sourceMappingURL=main.css.map */
