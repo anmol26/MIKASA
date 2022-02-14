@@ -1,4 +1,24 @@
 body {
   background: url(../Images/background12.png);
 }
+
+body ul {
+  list-style: none;
+}
+
+body ul li {
+  display: inline-block;
+  padding: 0 7px;
+  position: relative;
+}
+
+body ul li:not(:last-child)::after {
+  content: "";
+  border: 1px solid #e2e2e2;
+  border-width: 1px 1px 0 0;
+  position: absolute;
+  right: -3px;
+  top: 0;
+  height: 100%;
+}
 /*# sourceMappingURL=main.css.map */
