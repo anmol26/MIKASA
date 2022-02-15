@@ -1,5 +1,7 @@
 body {
   background: url(../Images/background12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body ul {
