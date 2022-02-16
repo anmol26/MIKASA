@@ -4,17 +4,17 @@ body {
   background-size: cover;
 }
 
-body ul {
+body .top-header ul {
   list-style: none;
 }
 
-body ul li {
+body .top-header ul li {
   display: inline-block;
   padding: 0 7px;
   position: relative;
 }
 
-body ul li:not(:last-child)::after {
+body .top-header ul li:not(:last-child)::after {
   content: "";
   border: 1px solid #e2e2e2;
   border-width: 1px 1px 0 0;
@@ -24,8 +24,48 @@ body ul li:not(:last-child)::after {
   height: 60%;
 }
 
+body .nav-1 ul {
+  list-style: none;
+}
+
+body .nav-1 ul li {
+  display: inline-block;
+  padding: 0 7px;
+  position: relative;
+}
+
+body .nav-1 ul li:not(:last-child)::after {
+  content: "";
+  border: 1px solid whitesmoke;
+  border-width: 2px 2px 0 0;
+  position: absolute;
+  right: -3px;
+  top: auto;
+  height: 150%;
+}
+
 body a {
   text-decoration: none;
   color: gray;
+}
+
+@media (max-width: 960px) {
+  body .nav-1 ul {
+    list-style: none;
+  }
+  body .nav-1 ul li {
+    display: inline-block;
+    padding: 0 7px;
+    position: relative;
+  }
+  body .nav-1 ul li:not(:last-child)::after {
+    content: "";
+    border: 1px solid whitesmoke;
+    border-width: 2px 2px 0 0;
+    position: absolute;
+    right: -3px;
+    top: auto;
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
