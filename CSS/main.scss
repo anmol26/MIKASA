@@ -39,11 +39,15 @@ body {
       top: auto;
       height: 150%;
     }
+    a {
+      text-decoration: none;
+      color: gray;
+    }
   }
-  a {
-    text-decoration: none;
-    color: gray;
-  }
+  // a {
+  //   text-decoration: none;
+  //   color: gray;
+  // }
   // nav select {
   //   display: none;
   // }
