@@ -41,7 +41,7 @@ body .nav-1 ul li:not(:last-child)::after {
   position: absolute;
   right: -3px;
   top: auto;
-  height: 150%;
+  height: 120%;
 }
 
 body .nav-1 a {
