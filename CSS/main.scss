@@ -24,6 +24,8 @@ body {
   .nav-1 {
     ul {
       list-style: none;
+      // vertical-align: middle;
+      // text-align: middle;
     }
     ul li {
       display: inline-block;
@@ -37,7 +39,7 @@ body {
       position: absolute;
       right: -3px;
       top: auto;
-      height: 120%;
+      height: 150%;
     }
     a {
       text-decoration: none;
@@ -70,6 +72,18 @@ body {
         top: auto;
         height: 100%;
       }
+    }
+    .navbar-2 {
+      .bridal-nav {
+        // margin: 0 auto;
+        padding-left: 1.5em;
+      }
+      img {
+        width: 20%;
+      }
+    }
+    .custom-form1 {
+      margin: 0 auto;
     }
   }
 }

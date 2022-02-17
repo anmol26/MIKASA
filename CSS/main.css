@@ -41,7 +41,7 @@ body .nav-1 ul li:not(:last-child)::after {
   position: absolute;
   right: -3px;
   top: auto;
-  height: 120%;
+  height: 150%;
 }
 
 body .nav-1 a {
@@ -66,6 +66,15 @@ body .nav-1 a {
     right: -3px;
     top: auto;
     height: 100%;
+  }
+  body .navbar-2 .bridal-nav {
+    padding-left: 1.5em;
+  }
+  body .navbar-2 img {
+    width: 20%;
+  }
+  body .custom-form1 {
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
