@@ -49,6 +49,26 @@ body .nav-1 a {
   color: gray;
 }
 
+body .custom-footer ul {
+  list-style: none;
+}
+
+body .custom-footer ul li {
+  display: inline-block;
+  padding: 0 7px;
+  position: relative;
+}
+
+body .custom-footer ul li:not(:last-child)::after {
+  content: "";
+  border: 1px solid gray;
+  border-width: 1px 1px 0 0;
+  position: absolute;
+  right: -3px;
+  top: auto;
+  height: 100%;
+}
+
 @media (max-width: 960px) {
   body .nav-1 ul {
     list-style: none;
@@ -64,8 +84,8 @@ body .nav-1 a {
     border-width: 2px 2px 0 0;
     position: absolute;
     right: -3px;
-    top: auto;
-    height: 100%;
+    top: 15%;
+    height: 80%;
   }
   body .navbar-2 .bridal-nav {
     padding-left: 1.5em;
@@ -73,8 +93,9 @@ body .nav-1 a {
   body .navbar-2 img {
     width: 20%;
   }
-  body .custom-form1 {
-    margin: 0 auto;
+  body .custom-form2 {
+    margin-top: 4rem;
+    float: left;
   }
 }
 /*# sourceMappingURL=main.css.map */

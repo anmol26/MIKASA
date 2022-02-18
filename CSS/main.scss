@@ -46,6 +46,27 @@ body {
       color: gray;
     }
   }
+  .custom-footer {
+    ul {
+      list-style: none;
+      // vertical-align: middle;
+      // text-align: middle;
+    }
+    ul li {
+      display: inline-block;
+      padding: 0 7px;
+      position: relative;
+    }
+    ul li:not(:last-child)::after {
+      content: "";
+      border: 1px solid gray;
+      border-width: 1px 1px 0 0;
+      position: absolute;
+      right: -3px;
+      top: auto;
+      height: 100%;
+    }
+  }
   // a {
   //   text-decoration: none;
   //   color: gray;
@@ -69,8 +90,8 @@ body {
         border-width: 2px 2px 0 0;
         position: absolute;
         right: -3px;
-        top: auto;
-        height: 100%;
+        top: 15%;
+        height: 80%;
       }
     }
     .navbar-2 {
@@ -82,8 +103,9 @@ body {
         width: 20%;
       }
     }
-    .custom-form1 {
-      margin: 0 auto;
+    .custom-form2 {
+      margin-top: 4rem;
+      float: left;
     }
   }
 }
