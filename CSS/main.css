@@ -40,8 +40,8 @@ body .nav-1 ul li:not(:last-child)::after {
   border-width: 2px 2px 0 0;
   position: absolute;
   right: -3px;
-  top: auto;
-  height: 150%;
+  top: -15%;
+  height: 170%;
 }
 
 body .nav-1 a {
