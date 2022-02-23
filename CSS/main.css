@@ -6,6 +6,7 @@ body {
 
 body .top-header ul {
   list-style: none;
+  margin-bottom: -1.5rem;
 }
 
 body .top-header ul li {
@@ -24,8 +25,25 @@ body .top-header ul li:not(:last-child)::after {
   height: 60%;
 }
 
+body .nav-1 {
+  margin-top: -1rem;
+}
+
+body .nav-1 nav {
+  background: #dbd9da;
+  vertical-align: middle;
+  border: 0.1rem double white;
+  border-width: 0.4rem;
+}
+
+body .nav-1 div {
+  margin-top: -0.3rem;
+  margin-bottom: -0.2rem;
+}
+
 body .nav-1 ul {
   list-style: none;
+  vertical-align: middle;
 }
 
 body .nav-1 ul li {
@@ -45,8 +63,155 @@ body .nav-1 ul li:not(:last-child)::after {
 }
 
 body .nav-1 a {
+  color: black;
+  vertical-align: middle;
   text-decoration: none;
+}
+
+body .nav-1 .custom-form1 input {
+  border-style: inset;
+  height: 2rem;
+}
+
+body .nav-1 .custom-form1 button {
+  height: 2rem;
+}
+
+body .navbar-2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .navbar-2 li {
+  list-style: circle;
+  list-style-position: inside;
+  text-indent: 1em;
+  padding-left: 1em;
+  color: #233f91;
+}
+
+body .navbar-2 .bridal-nav a {
+  text-decoration: none;
+  color: #233f91;
+}
+
+body .separationLine {
+  margin-top: -0.5rem;
+}
+
+body .rightCard {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  border: 0.5rem double white;
+}
+
+body .rightCard li {
+  color: #aeacad;
+  list-style: none;
+}
+
+body .rightCard hr {
+  color: white;
+}
+
+body .rightCard a {
+  color: #767475;
+}
+
+body .rightCard .rightCardTitle h2 {
+  font-weight: normal;
+  color: #cecdce;
+}
+
+body .rightCard .rightCardTitle p {
+  font-weight: normal;
+  color: #686667;
+}
+
+body .card21 {
+  background-image: url(../Images/promo_glass.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 14rem;
+}
+
+body .card21 h5 {
+  margin-top: -10px;
+  line-height: 1em;
+}
+
+body .card21 p {
   color: gray;
+}
+
+body .card21 a {
+  text-decoration: none;
+  color: #233f91;
+}
+
+body .card22 {
+  background-image: url(../Images/promo_plates.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 14rem;
+}
+
+body .card22 h5 {
+  margin-top: -10px;
+  line-height: 1em;
+}
+
+body .card22 p {
+  color: gray;
+}
+
+body .card22 a {
+  text-decoration: none;
+  color: #233f91;
+}
+
+body .card23 {
+  background-image: url(../Images/promo_album.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 200px 220px;
+  height: 14rem;
+}
+
+body .card23 h5 {
+  margin-top: -10px;
+  line-height: 1em;
+}
+
+body .card23 p {
+  color: gray;
+}
+
+body .card23 a {
+  text-decoration: none;
+  color: #233f91;
+}
+
+body .custom-footer {
+  float: left;
+  color: #949293;
+}
+
+body .custom-footer .customFooterP1 {
+  margin-top: -10px;
+}
+
+body .custom-footer .customFooterP1 a {
+  color: #949293;
+}
+
+body .custom-footer .customFooterP2 {
+  margin-top: -16px;
 }
 
 body .custom-footer ul {
@@ -67,6 +232,19 @@ body .custom-footer ul li:not(:last-child)::after {
   right: -3px;
   top: 20%;
   height: 70%;
+}
+
+body .signUp {
+  float: right;
+  color: #949293;
+}
+
+body .signUp .custom-form2 input {
+  border-style: inset;
+}
+
+body .signUp .custom-form2 button {
+  padding: 0 0.8rem;
 }
 
 @media (max-width: 960px) {
